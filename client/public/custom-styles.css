@@ -1,0 +1,50 @@
+.nav-item {
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #007bff;
+}
+
+.custom-checkbox {
+    margin-right: -0.15rem;
+}
+
+.custom-control-indicator {
+    top: .5rem;
+}
+
+.action-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-icons i {
+    font-size: 1.25rem;
+    margin-left: .25rem;
+    cursor: pointer;
+}
+
+.action-icons i.fa-pencil-square-o {
+    color: blue;
+}
+
+.action-icons i.fa-times-circle-o {
+    color: red;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.todo-title {
+    max-width: 80%;
+}
+
+@media (max-width: 576px) { 
+    .card-body {
+        padding-left:10px;
+        padding-right:10px;
+    }
+}
